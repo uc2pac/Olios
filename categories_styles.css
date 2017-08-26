@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+}
+
+#content {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 1200px;
+	height: 150px;
+}
+
+.string {
+	width: 85%;
+	float: left;
+	height: 150px;
+	font-family: Lato-Thin;
+	font-size: 26px;
+}
+
+.img {
+	width: 15%;
+	float: left;
+	height: 150px;
+	font-family: Lato-Regular;
+	color: #cdcdcd;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fst-box {
+	margin-bottom: 30px;
+	height: 330px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product {
+	height: 330px;
+	width: 250px;
+	float: left;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.product img {
+	height: 215px;
+	width: 200px;
+	max-height: 330px;
+	max-width: 250px;
+}
+
+.product h3 {
+	font-family: Lato-Light;
+	margin: 0;
+}
+
+.product p {
+	font-family: Lato-Light;
+	color: #aeaeae;
+	margin-bottom:  20px;
+	line-height: 20px;
+}
+
+.product span {
+	color: #0023ff;
+	font-family: Lato-Black;
+}
+
+.white-table {
+	height: 330px;
+	width: 915px;
+	float: left;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.white-table h2 {
+	font-family: Lato-Light;
+	margin: 0;
+}
+
+.white-table p {
+	font-family: Lato-Light;
+	color: #aeaeae;
+	margin-bottom:  40px;
+	line-height: 20px;
+}
+
+.white-table span {
+	color: #0023ff;
+	font-family: Lato-Black;
+}
+
+.snd-box {
+	height: 330px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.modern-bed {
+	height: 330px;
+	width: 630px;
+	float: left;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.modern-bed h3 {
+	font-family: Lato-Light;
+	margin: 0;
+}
+
+.modern-bed p {
+	font-family: Lato-Light;
+	color: #aeaeae;
+	margin-bottom:  40px;
+	line-height: 20px;
+}
+
+.modern-bed span {
+	color: #0023ff;
+	font-family: Lato-Black;
+}
+
+.footer {
+	height: 110px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+ a {
+	text-decoration: none;
+	font-family: Lato-Bold;
+	color: #0023ff;
+}
